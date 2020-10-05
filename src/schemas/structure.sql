@@ -1,0 +1,2 @@
+CREATE TABLE Pages(id SERIAL primary key, url text, is_scraping boolean, created_at date, updated_at date);
+CREATE TABLE Links(id SERIAL primary key, page_id integer, url text, created_at date, updated_at date, CONSTRAINT fk_page FOREIGN KEY(page_id) REFERENCES Pages(id))

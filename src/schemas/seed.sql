@@ -1,0 +1,1 @@
+INSERT INTO Pages (url) VALUES ('https://www.facebook.com'), ('https://rb.gy/zd2xxz');
